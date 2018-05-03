@@ -1,5 +1,19 @@
 {
-  "users1": [
+  "pulses": [
+    {
+      "userId": 7,
+      "timestamp": "76767867868",
+      "value": "23",
+      "id": 2
+    },
+    {
+      "userId": 7,
+      "timestamp": "5656566756576567",
+      "value": "500",
+      "id": 3
+    }
+  ],
+  "people": [
     {
       "id": 1,
       "name": "Auwal",
