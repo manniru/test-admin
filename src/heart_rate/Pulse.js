@@ -47,8 +47,12 @@ export const PulseCreate = (props) => (
             <ReferenceInput label="User" source="userId" reference="users">
                 <SelectInput optionText="name" />
             </ReferenceInput>
+
             <TextInput source="timestamp" />
             <TextInput source="value" />
+
+            
+
         </SimpleForm>
     </Create>
 );
