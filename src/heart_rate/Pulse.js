@@ -1,6 +1,9 @@
 import React from 'react';
 import { List, Edit, Create, Filter, Datagrid, ReferenceField, TextField, EditButton, DisabledInput, LongTextInput, ReferenceInput, SelectInput, SimpleForm, TextInput } from 'react-admin';
 
+var faker = require('faker');
+
+
 const PulseFilter = (props) => (
     <Filter {...props}>
         <TextInput label="Search" source="q" alwaysOn />
@@ -48,7 +51,7 @@ export const PulseCreate = (props) => (
                 <SelectInput optionText="name" />
             </ReferenceInput>
 
-            <TextInput source="timestamp" />
+            <TextInput source="timestamp" placeholder="hello" />
             <TextInput source="value" />
 
             

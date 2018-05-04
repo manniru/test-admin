@@ -27,12 +27,11 @@ import fakeDataProvider from 'ra-data-fakerest';
     ],
   })
   */
- 
+
 
 //import { RestClient } from 'aor-firebase-client';
 
 
-/// WORKING const dataProvider = jsonServerProvider('http://localhost:3001');
 //const dataProvider = jsonServerProvider('https://realtime-system.firebaseio.com/test_admin/.json');
 /*
 const firebaseConfig = {
@@ -66,7 +65,7 @@ const dataProvider = jsonServerProvider('http://localhost:3001');
 const App = () => (
     <Admin
     dataProvider={dataProvider}
-    title="Realtime System"
+    title="Cloud-Based Realtime Heart Rate Monitoring System"
     dashboard={Dashboard}
     >
         <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />

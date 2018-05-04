@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "aor-firebase-client": "^0.3.1",
+    "faker": "^4.1.0",
     "ra-data-fakerest": "^2.0.0-RC2",
     "ra-data-json-server": "^2.0.0-RC2",
     "react": "^16.3.2",
